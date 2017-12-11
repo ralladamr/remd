@@ -1,5 +1,5 @@
 CC = gcc
-CFLAGS = -O3 -Wall -Werror -pedantic -fopenmp
+CFLAGS = -O3 -Wall -Werror -pedantic -fopenmp -march=native
 LDFLAGS = -lm
 TARGET = remd
 OBJECTS = config.o init.o integrator.o potential.o main.o
